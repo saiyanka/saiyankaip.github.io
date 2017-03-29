@@ -3,10 +3,10 @@
     text-decoration: none;
 }
 
-body {
-    padding-top: 70px;
-}
+body{
 
+bg-image:img src="assets/backgrounds/landing.jpg"alt="landing page" class="img-responsive"  ;
+}
 p {
     font-family: 'Open Sans', sans-serif;
 }
