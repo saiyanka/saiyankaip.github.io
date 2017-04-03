@@ -20,11 +20,12 @@ align-items: center;
 margin: auto;
 }
 .party{
-
+padding: 20px;
   background-color: #F15A29;
 }
 .happy{
   background-color: gray;
+  padding: 20px;
 }
 
 
