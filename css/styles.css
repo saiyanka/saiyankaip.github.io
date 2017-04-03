@@ -27,6 +27,146 @@ margin: auto;
   background-color: gray;
 }
 
+
+
+
+/*Menu Section*/
+.menleft{
+
+}
+
+.menleft img {
+	border: 15px solid #fff;
+	box-shadow: -1px 1px 5px 4px #E3E3E3;
+
+}
+
+.menleft img:hover{
+	border:15px solid rgb(253, 114, 54);
+	transition: all 0.5s;
+}
+
+  .menright h3{
+  	font-size: 2.5em;
+  	font-family: 'aleobold';
+  	color:#505050;
+  }
+  .menright h5{
+  	font-size: 1.5em;
+  	font-family: 'aleobold';
+  	color:#505050;
+  }
+  .menright p {
+  	font-size: 1.2em;
+  	font-weight: 400;
+  	color: #505050;
+  	margin: 1em 6em 2em 0em;
+  	line-height: 1.8em;
+  	font-family: 'aleolight';
+  }
+  a.view {
+  	background:none;
+  	color: #F05A28;
+  	text-decoration: none;
+  	font-size: 16px;
+  	font-weight: 400;
+  	padding: 0.8em 3.5em 0.8em 2.2em;
+  	display: inline-block;
+  	text-decoration: none;
+  	border: 1px solid #F05A28;
+  	border-radius: 3px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	-o-border-radius: 3px;
+  	-msborder-radius: 3px;
+  }
+  a.view:hover{
+  	background:#333333;
+  	border:1px solid #333333;
+  	color:#fff;
+  }
+  a.view {
+  	position:relative;
+  }
+  i.arrow-rt1 {
+  	width: 50px;
+  	height: 48px;
+  	background: url(assets/action/basics-02-128.png)no-repeat -200px -2px;
+  	display: inline-block;
+  	position: absolute;
+  	top: 0px;
+  	right: 0px;
+  }
+  .menright1{
+  	text-align:right;
+  }
+  .menright1 h3{
+  	font-size: 2.5em;
+  	font-family: 'aleobold';
+  	color:#505050;
+    text-align: left;
+  }
+  .menright1 h5{
+  	font-size: 1.5em;
+  	font-family: 'aleobold';
+  	color:#505050;
+    text-align: left;
+  }
+  .menright1 p {
+  	font-size: 1.2em;
+  	font-weight: 400;
+  	color: #505050;
+  	margin: 1em 6em 2em 0em;
+  	line-height: 1.8em;
+  	font-family: 'aleolight';
+    text-align: left;
+  }
+
+.imgContainer{
+  float: left;
+}
+
+  .menleft1 img {
+  	border: 15px solid #fff;
+  	box-shadow: -1px 1px 5px 4px #E3E3E3;
+  }
+  .menleft1 img:hover{
+  	border: 15px solid rgb(253, 114, 54);
+  	transition: all 0.5s;
+  	-moz-transition: all 0.5s;
+  	-ms-transition: all 0.5s;
+  	-o-transition: all 0.5s;
+  	-webkit-transition: all 0.5s;
+  }
+  .fast-foo {
+  	margin: 8em 0em 0em;
+
+  }
+  .menright {
+  	padding: 0em 3em;
+  }
+  .menright1{
+  	padding: 0em 3em;
+  }
+
+/* Beginning of choice menu*/
+.choice {
+height: 300px;
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+background-repeat: no-repeat;
+}
+
+.foodtabs{
+  background-color: #333;
+}
+
+
+
+
+
+
 .choice{
   background-image: url("../assets/backgrounds/foodsBg.jpg");
 }
