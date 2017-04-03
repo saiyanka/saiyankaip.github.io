@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  background-image:  url('../landing.jpg');
+  color: white;
+  background-attachment: fixed;
+  min-height: 600px;
+text-align: center;
+  background-color:#F15A29;
+
+}
+center{
+display: flex;
+justify-content:center;
+align-items: center;
+margin: auto;
+}
+.party{
+
+  background-color: #F15A29;
+}
+.happy{
+  background-color: gray;
+}
+
+.choice{
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+}

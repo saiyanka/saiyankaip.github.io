@@ -5,7 +5,7 @@
 
 body{
 
-bg-image:img src="assets/backgrounds/landing.jpg"alt="landing page" class="img-responsive"  ;
+background-image:url("assets/backgrounds/landing.jpg"alt="landing page" class="img-responsive" ) ;
 }
 p {
     font-family: 'Open Sans', sans-serif;

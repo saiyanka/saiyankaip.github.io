@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-container {
+  color: #fff;
+  background-color: gray;  /* Black */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+}
+.menu {
+/*border: 1px solid #fff;?* /* For debugging */
+  /*width: 900px;*/
+  display: flex;
+ justify-content: space-around;
+margin: auto;
+align-items: center;
+}
+.rice{
+  margin-left: 30px;
+}
+.fast {
+  margin-left: auto;
+}
+.drinks{
+  margin-left: 20px;
+}
+.chicken{
+  margin-left: 20px;
+}
+.links {
+  /*border: 1px solid #fff;*/  /* For debugging */
+  display: flex;
+  justify-content: flex-end;
+}
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+   flex-direction: row;
+     align-items: center;
+}
+.img {
+  width: 300px;
+  height: 300px;
+}
+.wrd {
+  font-size: 90px;
+  justify-content: center;
+}
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+
+.header-container {
+  color: white;
+  background-color: ##A239ca;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-container{
+  color:white;
+  background-color: #A239ca;
+  display: flex;
+  justify-content: center;
+
+}
+.content{
+  /*border: 1px solid #fff;?* /* For debugging */
+    width: 900px;
+    display: flex;
+   justify-content: center;
+align-items:center;
+flex-direction: column;
+}
+.contact-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.contact{
+  /*border: 1px solid #fff;?* /* For debugging */
+    width: 900px;
+    display: flex;
+   justify-content: space-around;
+align-items:center;
+flex-direction: column;
+}
+.footer-container {
+  display: flex;
+
+
+}
+footer{
+  text-align: center;
+}
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #A239ca;
+  height: 100px;
+  flex: 1;
+}
+
+.jumbotron {
+  background-image:url("foodsBg.jpg");
+  color: white;
+  background-attachment: fixed;
+  min-height: 600px;
+}
